@@ -1,0 +1,12 @@
+orbs:
+  webhook: eddiewebb/webhook@volatile
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: 'circleci/node:10'
+    steps:
+      - run: echo "hi"
+      - webhook/notify:
+          endpoint: 'https://5f5cb4b418e1.ngrok.io'
+    working_directory: ~/repo
