@@ -8,5 +8,5 @@ jobs:
     steps:
       - run: echo "hi"
       - webhook/notify:
-          endpoint: 'https://5f5cb4b418e1.ngrok.io'
+          endpoint: 'https://kmgcloud.ngrok.io/binge'
     working_directory: ~/repo
