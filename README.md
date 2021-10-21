@@ -2,4 +2,4 @@
 
 Foo
 Bar
-Bizz
+Buzz
